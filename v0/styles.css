@@ -188,6 +188,231 @@ body {
     opacity: 0.9;
 }
 
+/* About Section */
+.about {
+    padding: 100px 0;
+    background-color: white;
+}
+
+.about h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.expertise-areas {
+    margin-top: 2rem;
+}
+
+.expertise-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--light-bg);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.expertise-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.expertise-item i {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-right: 1rem;
+}
+
+.about-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.stat-box {
+    background: var(--light-bg);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.stat-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.stat-box h4 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Service Areas */
+.service-areas {
+    padding: 80px 0;
+    background-color: var(--light-bg);
+}
+
+.area-card {
+    background: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.area-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.area-card h3 {
+    color: var(--secondary-color);
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+/* Services Section */
+.services {
+    padding: 100px 0;
+    background-color: white;
+}
+
+.service-card {
+    background: var(--light-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.service-card .icon {
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.service-card .icon i {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+
+.service-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.service-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service-card ul li {
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.service-card ul li:before {
+    content: '✓';
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 100px 0;
+    background-color: var(--light-bg);
+}
+
+.testimonial-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    height: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card .quote {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.testimonial-card p {
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.client-info h4 {
+    color: var(--secondary-color);
+    margin-bottom: 0.3rem;
+}
+
+.client-info p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+}
+
+/* Process Section */
+.process {
+    padding: 100px 0;
+    background-color: white;
+}
+
+.process-card {
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.process-card .number {
+    width: 50px;
+    height: 50px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.process-card h3 {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
 /* Contact Section */
 .contact {
     padding: 100px 0;

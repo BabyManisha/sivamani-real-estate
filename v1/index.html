@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SivaMani Real Estate Services</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <!-- AOS Animate On Scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
+    .text-gradient { background: linear-gradient(90deg, #1a202c, #e67e22); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Top Bar -->
+  <div class="bg-slate-900 text-white text-sm py-2">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <div>
+        <i class="fa fa-phone mr-1"></i> +91 9399965595
+        <span class="mx-2">|</span>
+        <i class="fa fa-envelope mr-1"></i> Sunkarayukeshkumar@gmail.com
+      </div>
+      <div>20+ Years of Trusted Real Estate Services</div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center py-3 px-4">
+      <div class="flex items-center space-x-2">
+        <div class="bg-orange-500 text-white font-bold rounded px-2 py-1">SM</div>
+        <div>
+          <div class="font-bold text-lg leading-tight">SivaMani</div>
+          <div class="text-xs text-gray-500 -mt-1">Real Estate Services</div>
+        </div>
+      </div>
+      <ul class="hidden md:flex space-x-6 font-medium">
+        <li><a href="#home" class="hover:text-orange-600">Home</a></li>
+        <li><a href="#about" class="hover:text-orange-600">About</a></li>
+        <li><a href="#properties" class="hover:text-orange-600">Properties</a></li>
+        <li><a href="#services" class="hover:text-orange-600">Services</a></li>
+        <li><a href="#testimonials" class="hover:text-orange-600">Testimonials</a></li>
+        <li><a href="#blog" class="hover:text-orange-600">Blog</a></li>
+        <li><a href="#contact" class="hover:text-orange-600">Contact</a></li>
+      </ul>
+      <a href="https://wa.me/918143052789" target="_blank" class="ml-4 bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded font-semibold shadow transition">WhatsApp Now</a>
+      <!-- Mobile menu button here if needed -->
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="py-20 bg-gradient-to-br from-white via-orange-50 to-white relative">
+    <div class="container mx-auto px-4 flex flex-col items-center text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4" data-aos="fade-up">
+        Your Trusted <span class="text-gradient">Real Estate Partner</span>
+      </h1>
+      <p class="text-lg md:text-xl mb-6" data-aos="fade-up" data-aos-delay="100">
+        20+ years of experience in Vijayawada, Amaravathi & Hyderabad.<br>
+        We deal only with <b>100% legally verified properties</b> with zero litigation guarantee.
+      </p>
+      <div class="flex flex-col md:flex-row gap-4 mb-6" data-aos="fade-up" data-aos-delay="200">
+        <a href="#properties" class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded font-semibold shadow transition">Explore Properties</a>
+        <a href="https://wa.me/918143052789" target="_blank" class="bg-white border border-orange-500 text-orange-600 px-6 py-3 rounded font-semibold shadow hover:bg-orange-50 transition">WhatsApp Consultation</a>
+      </div>
+      <div class="flex gap-6 justify-center mt-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="flex items-center gap-2 text-green-600"><i class="fa fa-check-circle"></i> 100% Legal Verification</div>
+        <div class="flex items-center gap-2 text-green-600"><i class="fa fa-check-circle"></i> Zero Litigation</div>
+        <div class="flex items-center gap-2 text-green-600"><i class="fa fa-check-circle"></i> Trusted Documentation</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Property Categories, Services, Stats, About, Testimonials, Blog, Contact, CTA, Footer -->
+  <!-- ... (continue with similar structure for each section, using Tailwind for layout, spacing, and colors) ... -->
+
+  <!-- AOS Animate On Scroll JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true, duration: 800 });
+  </script>
+</body>
+</html>
